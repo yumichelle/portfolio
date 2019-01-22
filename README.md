@@ -8,15 +8,11 @@ Steps for adding custom domain:
 example <br>
 Host: @
 Points to: 185.199.108.153
-<br>
 Host: @
 Points to: 185.199.109.153
-<br>
 Host: @
 Points to: 185.199.110.153
-<br>
 Host: @
 Points to: 185.199.111.153
-<br>
 2. Add CNAME file to the repository. Go to the repository,  click on ‘New File’,  Give the Name of file as CNAME without any spaces in capital. On the first line on the CNAMe file add your domain name like linuxforlife.com.
 We can host a static HTML website on Github. This method can be used to host other Html websites also like ReactJs, AngularJS, Bootstrap based websites also. It is really simple and you can have a website hosted on Github in few minutes. You can Publish and share your own website without any cost with GitHub.
