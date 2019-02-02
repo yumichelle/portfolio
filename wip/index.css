@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headline{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    padding: 10px;
+    width: auto;
+}
+
+.w3-bottombar{
+    border-color: #f1f1f1;
+}
+
+.w3-center{
+    color: white;
+    width: auto;
+    text-align: center;
+    padding: 3em;
+}
+
+
+img{
+    max-width: 5%;
+    height: auto;
+    padding: 20px;
+}
+
+a:link, a:visited, a:active { 
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: serif;
+}
+
+a:hover { 
+    color: yellow;
+    font-size: 1em;
+}
+  
