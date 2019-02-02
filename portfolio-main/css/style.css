@@ -1,0 +1,199 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: rgba(252, 252, 252, 1);
+    font-family: serif;
+    font-size: 11pt; 
+    color: #484848;
+   }
+
+.header {
+    overflow: hidden;
+    /* background-color: #fafafa; */
+    padding: 25px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.header a {
+    /* float: left; */
+    color: #242729;
+    padding: 4px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 10pt; 
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.header a:hover {
+    color: rgba(143, 195, 194, 0.4);
+    font-family: serif;
+}
+
+
+.footer {
+    overflow: hidden;
+    background-color: rgba(143, 195, 194, 0.4);
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt; 
+}
+.right {
+    float: right;
+}
+.fa {
+    /* font-awesome social icons */
+    padding: 5px;
+    /* font-size: 30px; */
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    /* margin: 5px 2px; */
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+.logo{
+    max-width: 6%;
+    height: auto;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    height: auto;
+}
+
+.content{
+   padding: 16px;
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+  /* margin:15px; */
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+
+.divider{
+    border-color: #f1f1f1;
+}
+
+
+
+.col-6 img{
+    /* transition: filter 0.3s ease-in-out; */
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: gray; /* FF 35+ */
+}
+.col-6 img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+section{
+    column-width: 190px;
+    column-gap: 5px;
+    padding: 5px;
+}
+  
+  section img{
+    width: 100%; 
+}
+
+
+.underline {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 0 88%;
+    /* transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  } */
+  }
+
+
+.asterisk a::before {
+  content: '';
+  background-image: url('https://66.media.tumblr.com/tumblr_maarbggf7I1rq76f4o2_500.gif');
+  background-position: 0% 70%;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  height: 100vh;
+  position: absolute;
+  bottom: 0vh;
+  width: 100vw;
+  transform: translateX(100%);
+  transition: transform .1s;
+}
+.asterisk a:hover::before {
+  transform: translateX(0px);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 70%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
