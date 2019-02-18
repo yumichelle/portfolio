@@ -30,13 +30,13 @@ html, body{
     width: 50%;
 }
 .split.left{
-    background:url('images/design-326501.jpg') center center no-repeat;
+    background:url('./images/design-326501.jpg') center center no-repeat;
     background-size: cover;
     left:0;
 
 }
 .split.right{
-    background: url('images/codes-247791.jpg') center center no-repeat;
+    background: url('./images/codes-247791.jpg') center center no-repeat;
     background-size: cover;
     right:0;
 
