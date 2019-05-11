@@ -8,10 +8,10 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     background-color: rgba(252, 252, 252, 1);
-    font-family: serif;
-    font-size: 10pt; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
     color: #484848;
    }
 
@@ -19,7 +19,7 @@ html, body {
     overflow: hidden;
     /* background-color: #fafafa; */
     padding: 25px 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .header a {
     /* float: left; */
@@ -27,14 +27,14 @@ html, body {
     padding: 4px;
     margin: 5px;
     text-decoration: none;
-    font-size: 9pt; 
+    font-size: 9pt;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 1px;
 }
 .header a:hover {
     color: rgba(143, 195, 194, 0.4);
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -43,7 +43,7 @@ html, body {
     background-color: rgba(143, 195, 194, 0.4);
     padding: 10px 30px;
     font-family: 'Poppins', sans-serif;
-    font-size: 8pt; 
+    font-size: 8pt;
 }
 .right {
     float: right;
@@ -72,7 +72,7 @@ html, body {
 
 
 .logo{
-    max-width: 6%;
+    max-width: 4%;
     height: auto;
 }
 
@@ -104,7 +104,7 @@ html, body {
 [class*="col-"] {
   float: left;
   /* margin:15px; */
-  padding: 10px;
+  padding: 5px;
   /* border: 1px solid red; */
 }
 
@@ -129,9 +129,9 @@ section{
     column-gap: 5px;
     padding: 5px;
 }
-  
+
   section img{
-    width: 100%; 
+    width: 100%;
 }
 
 
@@ -150,7 +150,7 @@ section{
 .asterisk a::before {
   content: '';
   background-image: url('https://66.media.tumblr.com/tumblr_maarbggf7I1rq76f4o2_500.gif');
-  background-position: 0% 70%;
+  background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 20%;
   height: 100vh;
@@ -166,8 +166,8 @@ section{
 .tooltip {
     position: relative;
     display: inline-block;
-  }
-  .tooltip .tooltiptext {
+}
+.tooltip .tooltiptext {
     visibility: hidden;
 /*     width: 100px; */
     background-color: black;
@@ -177,11 +177,11 @@ section{
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 70%;
+    bottom: 0%;
     left: 50%;
     margin-left: -60px;
-  }
-  .tooltip .tooltiptext::after {
+}
+.tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -190,8 +190,56 @@ section{
     border-width: 5px;
     border-style: solid;
     border-color: black transparent transparent transparent;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
+}
+
+.Bg-Gradient {
+    animation: BackgroundGradient 5s ease infinite;
+    background: linear-gradient(315deg, #3e3e3e, #82c35d);
+    background-size: 400% 400%;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 4vw;
+    padding: 4vw;
+
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+.Bg-Gradient .button{
+    background-color: #3e3e3e;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .5em;
+    margin: auto;
+    cursor: pointer;
+}
+.button a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #4C6591;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.filterDetail {
+    filter: invert(57%) sepia(67%) saturate(456%) hue-rotate(57deg) brightness(94%) contrast(88%);
+    /* used https://codepen.io/sosuke/pen/Pjoqqp */
+}
+
+.rotateObj{
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg); 
+    text-align:center;
+}

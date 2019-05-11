@@ -8,10 +8,10 @@
     width: 100%;
     margin: 0;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     background-color: rgba(252, 252, 252, 1);
     font-family: 'Poppins', sans-serif;
-    font-size: 9pt; 
+    font-size: 9pt;
     color: #484848;
    }
 
@@ -19,30 +19,31 @@
     overflow: hidden;
     /* background-color: #fafafa; */
     padding: 25px 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
-.header a {
+a:active, a:link, a:visited {
     /* float: left; */
-    color: #242729;
+    color: #000000;
     padding: 4px;
     text-decoration: none;
-    font-size: 9pt; 
+    font-size: 9pt;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 1px;
 }
-.header a:hover {
-    color: rgba(143, 195, 194, 0.4);
+a:hover {
+    color: #7eb9b5;
     font-family: 'Playfair Display', serif;
+    text-decoration: none;
 }
 
-  
+
 .footer {
     overflow: hidden;
     background-color: rgba(143, 195, 194, 0.4);
     padding: 10px 30px;
     font-family: 'Poppins', sans-serif;
-    font-size: 8pt; 
+    font-size: 8pt;
 }
 .right {
     float: right;
@@ -98,7 +99,7 @@
 [class*="col-"] {
   float: left;
   /* margin:15px; */
-  padding: 10px;
+  padding: 5px;
   /* border: 1px solid red; */
 }
 
@@ -118,7 +119,7 @@
 .asterisk a::before {
     content: '';
     background-image: url('https://66.media.tumblr.com/tumblr_maarbggf7I1rq76f4o2_500.gif');
-    background-position: 0% 70%;
+    background-position: 10% 0%;
     background-repeat: no-repeat;
     background-size: 20%;
     height: 100vh;
@@ -159,11 +160,11 @@
       border-style: solid;
       border-color: black transparent transparent transparent;
 }
-    
+
 .tooltip:hover .tooltiptext {
       visibility: visible;
 }
-  
+
 
 
 
